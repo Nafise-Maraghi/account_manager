@@ -1,0 +1,7 @@
+{% if users %}
+    {% for user in users %}
+        <p>{{ user.username }}</p>
+    {% endfor %}
+{% else %}
+  <p>No user registered yet.</p>
+{% endif %}
